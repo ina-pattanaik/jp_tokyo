@@ -148,6 +148,23 @@ Simply double-click `reports/report.html` in your file explorer.
 
 ![Sample Test Report](https://github.com/ina-pattanaik/jp_tokyo/raw/main/sample_reports/sample_report.png)
 
+---
+
+## ✅ Test Cases
+
+| Test Case ID | Precondition       | Steps                                  | Expected Result                              |
+|--------------|--------------------|----------------------------------------|---------------------------------------------|
+| TC01         | Site accessible     | Sign up with new username/password     | Success alert, user registered               |
+| TC02         | User signed up      | Login with correct credentials         | User logged in, welcome displayed            |
+| TC03         | User logged in      | Add 3 different products to cart       | Products added, alert shown each time        |
+| TC04         | Products in cart    | Go to cart page                        | All added products listed                    |
+| TC05         | Cart has products   | Delete one product from cart           | Product removed, cart updates                |
+| TC06         | N/A                 | Sign up with only username             | Error alert shown                            |
+| TC07         | N/A                 | Sign up with only password             | Error alert shown                            |
+| TC08         | N/A                 | Login with wrong username              | Error alert shown                            |
+| TC09         | Existing user       | Login with wrong password              | Error alert shown                            |
+| TC10         | N/A                 | Login with wrong username & password   | Error alert shown                            |
+
 
 ---
 
