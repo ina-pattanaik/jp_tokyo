@@ -12,7 +12,7 @@
 ## 📂 Project Structure
 
 ```
-your_project/
+jp_tokyo/
 ├── conftest.py
 ├── requirements.txt
 ├── testparams.json
