@@ -30,6 +30,40 @@ your_project/
 
 ---
 
+## 📝 Design Explanation
+
+### Page Object Model (`pages/demoblaze_pages.py`)
+
+- All DOM interactions (clicks, form fills, alerts) are encapsulated as methods.
+- Both positive and negative flows are implemented as methods (e.g., `signup`, `login`, `add_products_to_cart`, `login_negative`, `signup_negative`).
+- This abstraction makes the test code clean and maintainable; any UI change is handled in one place.
+
+### Config-Driven (`testparams.json`, `utils/config.py`)
+
+- All environment-specific or variable data (URL, product count, wait times) are in JSON.
+- The config loader (`TestConfig`) makes these available as attributes in tests and page objects.
+
+### Reusable Waits (`utils/waits.py`)
+
+- All waits are explicit, using Selenium’s `WebDriverWait` and `expected_conditions`.
+- No `time.sleep()` is used, making tests fast and reliable.
+
+### Test Cases (`tests/test_demoblaze.py`)
+
+- Each test case is a method, named for the scenario it covers.
+- Positive and negative scenarios are both covered.
+- All test logic is in the test class; all UI logic is in the page object.
+
+### Pytest Fixtures
+
+- `driver` fixture handles browser setup/teardown.
+- `setup_class` fixture initializes page objects, user data, and config for each test class.
+
+### HTML Reporting
+
+- `pytest-html` plugin generates a detailed, portable HTML report after each run.
+
+
 ## ⚙️ Setup Instructions
 
 ### 1. Clone or Download the Project
