@@ -1,6 +1,6 @@
 # 🚀 Selenium UI Automation Project for a sample e-commerce website – Usage Guide
 
-## Prerequisites
+## Pre-requisites
 
 - Python 3.7+ installed
 - `pip` installed
