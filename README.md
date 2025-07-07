@@ -59,7 +59,6 @@ Edit `testparams.json` to adjust:
 
 - The target URL
 - Number of products to add
-- Wait times
 
 #### Example:
 
@@ -67,9 +66,6 @@ Edit `testparams.json` to adjust:
 {
   "url": "https://www.demoblaze.com/index.html",
   "num_products_to_add": 3,
-  "signup_wait_time": 2,
-  "login_wait_time": 2,
-  "cart_wait_time": 3
 }
 ```
 
