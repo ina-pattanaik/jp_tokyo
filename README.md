@@ -63,6 +63,8 @@ jp_tokyo/
 
 - `pytest-html` plugin generates a detailed, portable HTML report after each run.
 
+---
+
 
 ## ⚙️ Setup Instructions
 
@@ -105,6 +107,7 @@ Edit `testparams.json` to adjust:
 
 ---
 
+
 ## 🚀 Running the Tests
 
 ### Default (Chrome):
@@ -123,6 +126,8 @@ pytest --browser=edge --html=reports/report.html --self-contained-html
 > **Note:** The correct browser driver will be downloaded automatically.
 
 ---
+
+
 
 ## 📄 Viewing the Test Report
 
@@ -149,6 +154,7 @@ Simply double-click `reports/report.html` in your file explorer.
 ![Sample Test Report](https://github.com/ina-pattanaik/jp_tokyo/raw/main/sample_reports/sample_report.png)
 
 ---
+
 
 ## ✅ Test Cases
 
