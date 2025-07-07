@@ -1,4 +1,4 @@
-# 🚀 Selenium UI Automation Project – Usage Guide
+# 🚀 Selenium UI Automation Project for a sample e-commerce website – Usage Guide
 
 ## Prerequisites
 
