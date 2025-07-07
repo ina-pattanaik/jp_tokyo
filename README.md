@@ -110,6 +110,11 @@ xdg-open reports/report.html
 
 Simply double-click `reports/report.html` in your file explorer.
 
+### 📊 Sample Test Report
+
+![Sample Test Report](https://github.com/ina-pattanaik/jp_tokyo/raw/main/sample_reports/sample_report.png)
+
+
 ---
 
 ## ❓ Troubleshooting
